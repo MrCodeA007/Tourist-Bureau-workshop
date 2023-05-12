@@ -3,3 +3,8 @@ body {
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
+
+.h1act {
+    color: azure;
+text-decoration: underline;
+}
