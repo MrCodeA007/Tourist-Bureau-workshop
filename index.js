@@ -113,3 +113,4 @@ let activities = [
   },
 ];
 
+console.log(`click`)
