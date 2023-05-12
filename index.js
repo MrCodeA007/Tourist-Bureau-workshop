@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 let categories = ['Adventures', 'Arts & Crafts', 'Museums', 'Wine Tastings', 'Other'];
 
@@ -113,4 +113,13 @@ let activities = [
   },
 ];
 
-console.log(`click`)
+//console.log(`click`) works
+
+const activitySelectorEl = document.getElementById(`activitySelector`);
+activitySelectorEl.onchange = activitySelectorChange;
+const activitesEl = document.getElementById(`activities`);
+
+
+function activitySelectorChange() {
+ 
+}
